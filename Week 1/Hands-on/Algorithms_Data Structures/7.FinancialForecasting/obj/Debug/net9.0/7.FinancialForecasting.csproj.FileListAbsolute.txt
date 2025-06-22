@@ -1,0 +1,15 @@
+D:\Projects\Cognizant\Week 1\Hands-on\Algorithms_Data Structures\7.FinancialForecasting\bin\Debug\net9.0\7.FinancialForecasting.exe
+D:\Projects\Cognizant\Week 1\Hands-on\Algorithms_Data Structures\7.FinancialForecasting\bin\Debug\net9.0\7.FinancialForecasting.deps.json
+D:\Projects\Cognizant\Week 1\Hands-on\Algorithms_Data Structures\7.FinancialForecasting\bin\Debug\net9.0\7.FinancialForecasting.runtimeconfig.json
+D:\Projects\Cognizant\Week 1\Hands-on\Algorithms_Data Structures\7.FinancialForecasting\bin\Debug\net9.0\7.FinancialForecasting.dll
+D:\Projects\Cognizant\Week 1\Hands-on\Algorithms_Data Structures\7.FinancialForecasting\bin\Debug\net9.0\7.FinancialForecasting.pdb
+D:\Projects\Cognizant\Week 1\Hands-on\Algorithms_Data Structures\7.FinancialForecasting\obj\Debug\net9.0\7.FinancialForecasting.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Cognizant\Week 1\Hands-on\Algorithms_Data Structures\7.FinancialForecasting\obj\Debug\net9.0\7.FinancialForecasting.AssemblyInfoInputs.cache
+D:\Projects\Cognizant\Week 1\Hands-on\Algorithms_Data Structures\7.FinancialForecasting\obj\Debug\net9.0\7.FinancialForecasting.AssemblyInfo.cs
+D:\Projects\Cognizant\Week 1\Hands-on\Algorithms_Data Structures\7.FinancialForecasting\obj\Debug\net9.0\7.FinancialForecasting.csproj.CoreCompileInputs.cache
+D:\Projects\Cognizant\Week 1\Hands-on\Algorithms_Data Structures\7.FinancialForecasting\obj\Debug\net9.0\7.FinancialForecasting.sourcelink.json
+D:\Projects\Cognizant\Week 1\Hands-on\Algorithms_Data Structures\7.FinancialForecasting\obj\Debug\net9.0\7.FinancialForecasting.dll
+D:\Projects\Cognizant\Week 1\Hands-on\Algorithms_Data Structures\7.FinancialForecasting\obj\Debug\net9.0\refint\7.FinancialForecasting.dll
+D:\Projects\Cognizant\Week 1\Hands-on\Algorithms_Data Structures\7.FinancialForecasting\obj\Debug\net9.0\7.FinancialForecasting.pdb
+D:\Projects\Cognizant\Week 1\Hands-on\Algorithms_Data Structures\7.FinancialForecasting\obj\Debug\net9.0\7.FinancialForecasting.genruntimeconfig.cache
+D:\Projects\Cognizant\Week 1\Hands-on\Algorithms_Data Structures\7.FinancialForecasting\obj\Debug\net9.0\ref\7.FinancialForecasting.dll
