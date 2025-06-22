@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("1.SingletonPatternExample")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+979b3d6284dbbf093912986d6b5739cd09e6be14")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e46dc540d272110eba797130eaae01ea9619fee6")]
 [assembly: System.Reflection.AssemblyProductAttribute("1.SingletonPatternExample")]
 [assembly: System.Reflection.AssemblyTitleAttribute("1.SingletonPatternExample")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
