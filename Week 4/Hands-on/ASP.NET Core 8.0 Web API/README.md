@@ -21,3 +21,9 @@
 
 ## 4.WebApi_Handson
 ![Curd](/Week%204/Hands-on/ASP.NET%20Core%208.0%20Web%20API/Outputs/4.WebApi_HandsonCURD.png)
+
+## 5.WebApi_Handson
+
+![5.WebApi_HandsonKeyGen](/Week%204/Hands-on/ASP.NET%20Core%208.0%20Web%20API/Outputs/5.WebApi_HandsonKeyGen.png)
+
+![5.WebApi_HandsonKeyValid](/Week%204/Hands-on/ASP.NET%20Core%208.0%20Web%20API/Outputs/5.WebApi_HandsonKeyValid.png)
