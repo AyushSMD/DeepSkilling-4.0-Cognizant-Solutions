@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2gU/rUWZCMc=",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\Cognizant\\Week 4\\Hands-on\\ASP.NET Core 8.0 Web API\\1.WebApi_Handson\\FirstWebApi\\FirstWebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ayush Samad\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.6\\microsoft.aspnetcore.openapi.9.0.6.nupkg.sha512",
+    "C:\\Users\\Ayush Samad\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

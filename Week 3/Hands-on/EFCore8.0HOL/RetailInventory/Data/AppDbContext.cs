@@ -9,8 +9,8 @@ namespace RetailInventory.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(
-            "Server=localhost;Database=RetailInventoryDB;Trusted_Connection=True;TrustServerCertificate=True;"
-        );
+                "Server=localhost;Database=RetailInventoryDB;Trusted_Connection=True;TrustServerCertificate=True;"
+            );
         }
     }
 }
