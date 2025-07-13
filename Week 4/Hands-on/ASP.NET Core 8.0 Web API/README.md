@@ -1,20 +1,23 @@
-## Outputs
+# Outputs
 
-### 1.WebApi_Handson
+## 1.WebApi_Handson
 
-#### GET
+### GET
 
-![1.WebApi_HandsonGet](Outputs\1.WebApi_HandsonGet.png)
+![1.WebApi_HandsonGet](/Week%204/Hands-on/ASP.NET%20Core%208.0%20Web%20API/Outputs/1.WebApi_HandsonGet.png)
 
-#### POST
+### POST
 
-![1.WebApi_HandsonPost](Outputs\1.WebApi_HandsonPost.png)
+![1.WebApi_HandsonPost](/Week%204/Hands-on/ASP.NET%20Core%208.0%20Web%20API/Outputs/1.WebApi_HandsonPost.png)
 
-### 2.WebApi_Handson
+## 2.WebApi_Handson
 
-#### Swagger
+### Swagger
 
-![Swagger](Outputs\2.WebApi_HandsonSwagger.png)
+![Swagger](/Week%204/Hands-on/ASP.NET%20Core%208.0%20Web%20API/Outputs/2.WebApi_HandsonSwagger.png)
 
-### 3.WebApi_Handson
-![Auth](Outputs\3.WebApi_HandsonAuth.png)
+## 3.WebApi_Handson
+![Auth](/Week%204/Hands-on/ASP.NET%20Core%208.0%20Web%20API/Outputs/3.WebApi_HandsonAuth.png)
+
+## 4.WebApi_Handson
+![Curd](/Week%204/Hands-on/ASP.NET%20Core%208.0%20Web%20API/Outputs/4.WebApi_HandsonCURD.png)
