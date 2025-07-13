@@ -1,23 +1,47 @@
 using Microsoft.AspNetCore.Mvc;
-using FirstWebApi.Models;
-using FirstWebApi.Filters;
-using Microsoft.AspNetCore.Authorization;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using FirstWebApi.Models; 
 
 namespace FirstWebApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    [ServiceFilter(typeof(CustomAuthFilter))] // Apply custom auth filter
     public class EmployeeController : ControllerBase
     {
-        private List<Employee> _employees;
+        private static List<Employee> employees = GetStandardEmployeeList();
 
-        public EmployeeController()
+        // GET: api/employee
+        [HttpGet]
+        public ActionResult<List<Employee>> Get()
         {
-            _employees = GetStandardEmployeeList();
+            return Ok(employees);
         }
 
-        private List<Employee> GetStandardEmployeeList()
+        // PUT: api/employee/2
+        [HttpPut("{id}")]
+        public ActionResult<Employee> Put(int id, [FromBody] Employee updatedEmployee)
+        {
+            if (id <= 0)
+                return BadRequest("Invalid employee id");
+
+            var existingEmployee = employees.FirstOrDefault(e => e.Id == id);
+            if (existingEmployee == null)
+                return BadRequest("Invalid employee id");
+
+            // Update employee fields
+            existingEmployee.Name = updatedEmployee.Name;
+            existingEmployee.Salary = updatedEmployee.Salary;
+            existingEmployee.Permanent = updatedEmployee.Permanent;
+            existingEmployee.Department = updatedEmployee.Department;
+            existingEmployee.Skills = updatedEmployee.Skills;
+            existingEmployee.DateOfBirth = updatedEmployee.DateOfBirth;
+
+            return Ok(existingEmployee);
+        }
+
+        private static List<Employee> GetStandardEmployeeList()
         {
             return new List<Employee>
             {
@@ -28,32 +52,25 @@ namespace FirstWebApi.Controllers
                     Salary = 50000,
                     Permanent = true,
                     Department = new Department { Id = 1, Name = "HR" },
-                    Skills = new List<Skill>
-                    {
+                    Skills = new List<Skill> {
                         new Skill { Id = 1, Name = "C#" },
                         new Skill { Id = 2, Name = "SQL" }
                     },
-                    DateOfBirth = new DateTime(1990, 5, 1)
+                    DateOfBirth = new DateTime(1990, 01, 01)
+                },
+                new Employee
+                {
+                    Id = 2,
+                    Name = "Jane",
+                    Salary = 60000,
+                    Permanent = true,
+                    Department = new Department { Id = 2, Name = "IT" },
+                    Skills = new List<Skill> {
+                        new Skill { Id = 1, Name = "JavaScript" }
+                    },
+                    DateOfBirth = new DateTime(1992, 04, 20)
                 }
             };
-        }
-
-        [HttpGet]
-        [AllowAnonymous]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public ActionResult<List<Employee>> GetStandard()
-        {
-            // Simulate exception to test CustomExceptionFilter
-            throw new Exception("Simulated exception for testing.");
-            // return Ok(_employees);
-        }
-
-        [HttpPost]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        public IActionResult AddEmployee([FromBody] Employee emp)
-        {
-            return Ok($"Employee {emp.Name} added.");
         }
     }
 }
