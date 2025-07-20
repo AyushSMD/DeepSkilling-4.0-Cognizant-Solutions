@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "fzM1yJdhQtI=",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\Cognizant\\Week 5\\Hands-on\\ASP.NET Core 8.0 Web API\\KafkaChatConsole\\Producer\\Producer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ayush Samad\\.nuget\\packages\\confluent.kafka\\2.11.0\\confluent.kafka.2.11.0.nupkg.sha512",
+    "C:\\Users\\Ayush Samad\\.nuget\\packages\\librdkafka.redist\\2.11.0\\librdkafka.redist.2.11.0.nupkg.sha512"
+  ],
+  "logs": []
+}

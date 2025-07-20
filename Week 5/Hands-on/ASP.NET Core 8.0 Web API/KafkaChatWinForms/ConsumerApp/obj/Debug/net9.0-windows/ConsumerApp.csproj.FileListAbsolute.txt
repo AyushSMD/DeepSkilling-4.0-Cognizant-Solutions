@@ -1,0 +1,6 @@
+D:\Projects\Cognizant\Week 5\Hands-on\ASP.NET Core 8.0 Web API\KafkaChatWinForms\ConsumerApp\obj\Debug\net9.0-windows\ConsumerApp.csproj.AssemblyReference.cache
+D:\Projects\Cognizant\Week 5\Hands-on\ASP.NET Core 8.0 Web API\KafkaChatWinForms\ConsumerApp\obj\Debug\net9.0-windows\ConsumerApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Cognizant\Week 5\Hands-on\ASP.NET Core 8.0 Web API\KafkaChatWinForms\ConsumerApp\obj\Debug\net9.0-windows\ConsumerApp.AssemblyInfoInputs.cache
+D:\Projects\Cognizant\Week 5\Hands-on\ASP.NET Core 8.0 Web API\KafkaChatWinForms\ConsumerApp\obj\Debug\net9.0-windows\ConsumerApp.AssemblyInfo.cs
+D:\Projects\Cognizant\Week 5\Hands-on\ASP.NET Core 8.0 Web API\KafkaChatWinForms\ConsumerApp\obj\Debug\net9.0-windows\ConsumerApp.csproj.CoreCompileInputs.cache
+D:\Projects\Cognizant\Week 5\Hands-on\ASP.NET Core 8.0 Web API\KafkaChatWinForms\ConsumerApp\obj\Debug\net9.0-windows\ConsumerApp.sourcelink.json
